@@ -1,0 +1,12 @@
+dm:
+  outputs:
+    dev:
+      dbname: e-comm
+      host: postgres
+      pass: dbt_password
+      port: 5432
+      schema: dev_schema
+      threads: 4
+      type: postgres
+      user: nil
+  target: dev
