@@ -7,7 +7,7 @@ RUN apt-get update && apt-get install -y \
     build-essential \
     && rm -rf /var/lib/apt/lists/*
 
-# Upgrade pip first (good practice)
+# Upgrade the pip first (good practice)
 RUN pip install --no-cache-dir --upgrade pip
 
 # Install exact locked versions
