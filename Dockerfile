@@ -10,7 +10,7 @@ RUN apt-get update && apt-get install -y \
 # Upgrade the pip first (good practice)
 RUN pip install --no-cache-dir --upgrade pip
 
-# Install exact locked versions
+# Install the exact locked versions
 RUN pip install --no-cache-dir \
     dbt-core==1.11.6 \
     dbt-postgres==1.10.0
